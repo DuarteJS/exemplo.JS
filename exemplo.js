@@ -20,3 +20,11 @@ console.log(pontos + bonus)
 let notaAluno = parseFloat(prompt("Digite a nota do aluno"))
 
 console.log(notaAluno);
+
+let pontuacaoTotal = pontos = bonus
+console.log(pontuacaoTotal)
+
+// adicao -> num1 + num2
+// subtracao -> num1 - num2
+// multiplicacao -> num1 * num2 
+//  
