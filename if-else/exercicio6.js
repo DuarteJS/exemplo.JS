@@ -2,8 +2,10 @@
 
 let idade = parseInt(prompt("Digite seu ano de nascimento" ))
 if(2024 - idade >= 18){
-    console.log("Voce é maior de idade.")
+    console.log("Voce é maior de idade.");
+    console.log("Sua idade é + idade");
 }else{
-    console.log("voce não maior de idade.")
+    console.log("voce não maior de idade.");
+     console.log("Sua idade é + idade");
 }
 

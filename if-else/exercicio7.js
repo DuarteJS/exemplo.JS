@@ -8,9 +8,9 @@ let vt = parseFloat(prompt("Digite o valor da compra"))
 let desconto = 0
 if(vt > 200.00){
     desconto = vt * 0.20
-} else if(vt > 100.00 && vt <= 200.00){
-    desconto = vt * 0.10
+} else if(vt > 100.00){
+    desconto = vt * 0.10;
 }
 let final = vt - desconto
-console.log("Valor Final: " + final.toFixed(2))
+console.log("Valor Final:R$" + final.toFixed(2))
 
