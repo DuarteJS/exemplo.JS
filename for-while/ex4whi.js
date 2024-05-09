@@ -5,5 +5,5 @@ let n = prompt("Digite um numero: ")
 
 while (n >= 0){
     console.log(n)
-    n--
+    n-- 
 }

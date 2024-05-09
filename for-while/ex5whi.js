@@ -9,3 +9,10 @@ while (true) {
     }
     
 }
+// ----------------------------------
+// Outra maneira de fazer
+
+// do{
+//   n = parseInt(prompt("Digite um número (Digite 0 para sair: "))
+// }while (numero !==0);
+// console.log("Voce digitou 0. O programa foi encerrado");
