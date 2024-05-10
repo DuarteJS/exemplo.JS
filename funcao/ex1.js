@@ -9,7 +9,7 @@
 let repetir = true
 
 while (repetir) {
-    let menu = parseInt(prompt("Escolha uma opção: \n 1- contagem de 1 a 10 \n2- nùmero ímpares \n3- verificação de maioridade \n4- IMC \n5- verificação se é par ou ímpar 6- Ano de nascimento "))
+    let menu = parseInt(prompt("Escolha uma opção: \n 1- contagem de 1 a 10 \n2- nùmero ímpares \n3- verificação de maioridade \n4- IMC \n5- verificação se é par ou ímpar \n6- Ano de nascimento \nDigite 0 para sair. "))
 
     if (isNaN(menu)) {
         console.log("Digite apenas números!")
@@ -98,7 +98,7 @@ function ex4() {
         console.log("Obesidade grau 3")
     }
 }
-function parOuímpar() {
+function ex5() {
     let n = parseInt(prompt("Digite um numero"))
     if (n % 2 == 0) {
         console.log("O numero " + n + " é par")
